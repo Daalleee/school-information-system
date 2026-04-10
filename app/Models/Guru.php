@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Guru extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'guru';
+    protected $fillable = [
+        'nama',
+        'nip',
+        'jenis_kelamin',
+        'mata_pelajaran',
+        'foto',
+    ];
 }

@@ -6,10 +6,13 @@ use Illuminate\Database\Eloquent\Model;
 
 class Siswa extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'siswa';
+    protected $fillable = [
+        'nama',
+        'nis',
+        'jenis_kelamin',
+        'kelas',
+        'alamat',
+        'foto',
+    ];
 }

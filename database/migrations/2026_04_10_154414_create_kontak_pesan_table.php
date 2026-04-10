@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('kontak_pesan', function (Blueprint $table) {
             $table->id();
+            $table->string('nama');
+            $table->string('email');
+            $table->text('pesan');
             $table->timestamps();
         });
     }

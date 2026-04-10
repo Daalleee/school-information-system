@@ -6,10 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pengumuman extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'pengumuman';
+    protected $fillable = [
+        'judul',
+        'isi',
+        'tanggal',
+    ];
+
+    protected $casts = [
+        'tanggal' => 'date',
+    ];
 }

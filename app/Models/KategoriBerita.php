@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class KategoriBerita extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'kategori_berita';
+    protected $fillable = [
+        'nama_kategori',
+    ];
+    public function beritas()
+    {
+        return $this->hasMany(Berita::class, 'kategori_id');
+    }
 }

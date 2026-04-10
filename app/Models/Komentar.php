@@ -6,10 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Komentar extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'komentar';
+    protected $fillable = [
+        'berita_id',
+        'nama',
+        'komentar',
+    ];
+    public function berita()
+    {
+        return $this->belongsTo(Berita::class);
+    }
 }

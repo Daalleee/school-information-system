@@ -13,6 +13,14 @@ return new class extends Migration
     {
         Schema::create('ppdb', function (Blueprint $table) {
             $table->id();
+            $table->string('nama_lengkap');
+            $table->string('tempat_lahir');
+            $table->date('tanggal_lahir');
+            $table->text('alamat');
+            $table->string('asal_sekolah');
+            $table->string('no_hp');
+            $table->string('email');
+            $table->enum('status', ['pending', 'diterima', 'ditolak'])->default('pending');
             $table->timestamps();
         });
     }

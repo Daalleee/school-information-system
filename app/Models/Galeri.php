@@ -6,10 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Galeri extends Model
 {
-    /**
-     * The table associated with the model.
-     *
-     * @var string
-     */
     protected $table = 'galeri';
+    protected $fillable = [
+        'judul',
+        'foto',
+        'kategori',
+    ];
 }
