@@ -60,3 +60,40 @@ Route::middleware('auth')->group(function () {
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
+
+// School Pages
+Route::get('/profil', function () {
+    return view('profil');
+})->name('profil');
+
+Route::get('/guru', function () {
+    return view('guru');
+})->name('guru');
+
+Route::get('/fasilitas', function () {
+    return view('fasilitas');
+})->name('fasilitas');
+
+Route::get('/kemitraan', function () {
+    return view('kemitraan');
+})->name('kemitraan');
+
+Route::get('/ppdb', function () {
+    return view('ppdb');
+})->name('ppdb');
+
+Route::get('/berita', function () {
+    return view('berita');
+})->name('berita');
+
+Route::get('/pengumuman', function () {
+    return view('pengumuman');
+})->name('pengumuman');
+
+Route::get('/galeri', function () {
+    return view('galeri');
+})->name('galeri');
+
+Route::get('/kontak', function () {
+    return view('kontak');
+})->name('kontak');
