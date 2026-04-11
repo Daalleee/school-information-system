@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -33,21 +33,21 @@
                 <div class="flex items-center">
                     <a href="/" class="flex items-center">
                         <div
-                            class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
                             S</div>
                         <div>
-                            <h1 class="text-lg font-bold text-blue-600">SMAK Syuradikara</h1>
+                            <h1 class="text-lg font-bold text-yellow-600">SMAK Syuradikara</h1>
                             <p class="text-xs text-gray-500">Pencipta Pahlawan Utama</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="/" class="text-gray-700 hover:text-blue-600 transition font-medium">Beranda</a>
+                    <a href="/" class="text-gray-700 hover:text-yellow-600 transition font-medium">Beranda</a>
 
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-blue-600 transition font-medium flex items-center">
+                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
                             Profil
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,25 +56,26 @@
                         </button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="#visi-misi"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Visi &
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Visi &
                                 Misi</a>
                             <a href="#sejarah"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sejarah</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sejarah</a>
                             <a href="#sambutan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sambutan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sambutan
                                 Kepala Sekolah</a>
                             <a href="#tujuan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Tujuan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Tujuan
                                 Sekolah</a>
                         </div>
                     </div>
 
-                    <a href="/guru" class="text-gray-700 hover:text-blue-600 transition font-medium">Guru &
+                    <a href="/guru" class="text-gray-700 hover:text-yellow-600 transition font-medium">Guru &
                         Pegawai</a>
-                    <a href="/fasilitas" class="text-gray-700 hover:text-blue-600 transition font-medium">Fasilitas</a>
+                    <a href="/fasilitas"
+                        class="text-gray-700 hover:text-yellow-600 transition font-medium">Fasilitas</a>
 
                     <div class="relative dropdown">
-                        <button class="text-gray-700 hover:text-blue-600 transition font-medium flex items-center">
+                        <button class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
                             Akademik
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -84,22 +85,23 @@
                         <div
                             class="dropdown-menu absolute hidden bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/berita"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Berita</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Berita</a>
                             <a href="/pengumuman"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Pengumuman</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Pengumuman</a>
                             <a href="/galeri"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Galeri</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Galeri</a>
                         </div>
                     </div>
 
-                    <a href="/ppdb" class="text-gray-700 hover:text-blue-600 transition font-medium">PPDB</a>
-                    <a href="/kemitraan" class="text-gray-700 hover:text-blue-600 transition font-medium">Kemitraan</a>
-                    <a href="/kontak" class="text-gray-700 hover:text-blue-600 transition font-medium">Kontak</a>
+                    <a href="/ppdb" class="text-gray-700 hover:text-yellow-600 transition font-medium">PPDB</a>
+                    <a href="/kemitraan"
+                        class="text-gray-700 hover:text-yellow-600 transition font-medium">Kemitraan</a>
+                    <a href="/kontak" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kontak</a>
                 </div>
 
                 <div class="flex items-center">
                     <button onclick="openLoginModal()"
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-200">Login</button>
+                        class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-lg transition duration-200">Login</button>
                 </div>
             </div>
         </div>
@@ -136,25 +138,25 @@
                     <div>
                         <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
                         <input type="email" name="email" id="email" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="nama@syuradikara.sch.id">
                     </div>
                     <div>
                         <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Password</label>
                         <input type="password" name="password" id="password" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="••••••••">
                     </div>
                     <div class="flex items-center">
                         <input type="checkbox" name="remember" id="remember"
-                            class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                            class="h-4 w-4 text-yellow-600 focus:ring-yellow-400 border-gray-300 rounded">
                         <label for="remember" class="ml-2 block text-sm text-gray-700">Ingat saya</label>
                     </div>
                     <button type="submit"
-                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-200">Masuk
+                        class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition duration-200">Masuk
                         ke Sistem</button>
                 </form>
-                <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+                <div class="mt-4 p-4 bg-yellow-50 rounded-lg">
                     <p class="text-sm text-gray-700 font-medium mb-2">Demo Login:</p>
                     <p class="text-xs text-gray-600">Admin: admin@sekolah.com / admin123</p>
                     <p class="text-xs text-gray-600">Guru: guru@sekolah.com / guru123</p>
@@ -165,7 +167,7 @@
 
     <!-- Hero Section -->
     <section class="pt-16">
-        <div class="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-900 text-white overflow-hidden">
+        <div class="relative bg-gradient-to-br from-yellow-400 via-blue-700 to-blue-900 text-white overflow-hidden">
             <div class="absolute inset-0 opacity-10">
                 <div class="absolute top-20 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
                 <div class="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -174,8 +176,10 @@
                 <div class="text-center">
                     <div class="inline-block bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium mb-6">
                         Tentang Kami</div>
-                    <h1 class="text-5xl md:text-6xl font-bold mb-6">Profil SMAK Syuradikara</h1>
-                    <p class="text-xl text-blue-100 max-w-3xl mx-auto">Mengenal lebih dekat sekolah Katolik terbaik di
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6">Profil
+                        {{ $profil->nama_sekolah ?? 'SMAK Syuradikara' }}</h1>
+                    <p class="text-xl text-yellow-100 max-w-3xl mx-auto">Mengenal lebih dekat sekolah Katolik terbaik
+                        di
                         Ende yang telah mencetak generasi unggul sejak tahun 1953</p>
                 </div>
             </div>
@@ -187,7 +191,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex space-x-4 overflow-x-auto py-3">
                 <a href="#visi-misi"
-                    class="whitespace-nowrap px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium hover:bg-blue-200 transition">Visi
+                    class="whitespace-nowrap px-4 py-2 bg-yellow-100 text-blue-700 rounded-full text-sm font-medium hover:bg-yellow-200 transition">Visi
                     & Misi</a>
                 <a href="#sejarah"
                     class="whitespace-nowrap px-4 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition">Sejarah</a>
@@ -211,7 +215,7 @@
 
             <div class="grid md:grid-cols-2 gap-8 mb-12">
                 <!-- Visi -->
-                <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
+                <div class="bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-2xl p-8 text-white">
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white bg-opacity-20 rounded-xl flex items-center justify-center mr-4">
                             <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -224,14 +228,14 @@
                         </div>
                         <h3 class="text-3xl font-bold">Visi</h3>
                     </div>
-                    <p class="text-2xl font-light leading-relaxed">"Pencipta Pahlawan Utama"</p>
+                    <p class="text-2xl font-light leading-relaxed">{{ $profil->visi ?? 'Pencipta Pahlawan Utama' }}</p>
                 </div>
 
                 <!-- Misi -->
-                <div class="bg-white border-2 border-blue-200 rounded-2xl p-8">
+                <div class="bg-white border-2 border-yellow-200 rounded-2xl p-8">
                     <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-blue-100 rounded-xl flex items-center justify-center mr-4">
-                            <svg class="w-10 h-10 text-blue-600" fill="none" stroke="currentColor"
+                        <div class="w-16 h-16 bg-yellow-100 rounded-xl flex items-center justify-center mr-4">
+                            <svg class="w-10 h-10 text-yellow-600" fill="none" stroke="currentColor"
                                 viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4">
@@ -240,70 +244,80 @@
                         </div>
                         <h3 class="text-3xl font-bold text-gray-800">Misi</h3>
                     </div>
-                    <ul class="space-y-3">
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Menciptakan kondisi yang kondusif bagi terwujudnya Kerajaan
-                                Allah dengan benih-benih (nilai-nilai) Kerajaan Allah dalam diri generasi muda.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Menyiapkan pendidikan umum yang cukup/sesuai dan diselaraskan
-                                dengan program kurikulum untuk pengembangan aspek intelektual, keterampilan, dan mental
-                                kepribadian.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Menyiapkan mutu pendidikan melalui pendekatan interdisiplin
-                                ilmu yang terpadu, kreatif dan inovatif.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Menyiapkan siswa untuk berpartisipasi aktif dan efektif dalam
-                                kegiatan-kegiatan sosial dan masalah-masalah sosial.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Mempromosikan pelayanan kepada masyarakat luas dengan membuka
-                                peluang bagi semua siswa dari pelbagai tanpa memandang perbedaan agama, budaya, status
-                                sosial dan jenis kelamin.</span>
-                        </li>
-                        <li class="flex items-start">
-                            <svg class="w-6 h-6 text-blue-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
-                                viewBox="0 0 20 20">
-                                <path fill-rule="evenodd"
-                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                            <span class="text-gray-700">Menjadikan Syuradikara sebagai Pusat Belajar bagi lembaga
-                                pendidikan lainnya teristimewa di kawasan Nusa Tenggara Timur.</span>
-                        </li>
-                    </ul>
+                    @if ($profil?->misi)
+                        <div class="text-gray-700 whitespace-pre-line">{{ $profil->misi }}</div>
+                    @else
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Menciptakan kondisi yang kondusif bagi terwujudnya Kerajaan
+                                    Allah dengan benih-benih (nilai-nilai) Kerajaan Allah dalam diri generasi
+                                    muda.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Menyiapkan pendidikan umum yang cukup/sesuai dan
+                                    diselaraskan
+                                    dengan program kurikulum untuk pengembangan aspek intelektual, keterampilan, dan
+                                    mental
+                                    kepribadian.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Menyiapkan mutu pendidikan melalui pendekatan interdisiplin
+                                    ilmu yang terpadu, kreatif dan inovatif.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Menyiapkan siswa untuk berpartisipasi aktif dan efektif
+                                    dalam
+                                    kegiatan-kegiatan sosial dan masalah-masalah sosial.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Mempromosikan pelayanan kepada masyarakat luas dengan
+                                    membuka
+                                    peluang bagi semua siswa dari pelbagai tanpa memandang perbedaan agama, budaya,
+                                    status
+                                    sosial dan jenis kelamin.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-yellow-600 mr-2 mt-0.5 flex-shrink-0" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="text-gray-700">Menjadikan Syuradikara sebagai Pusat Belajar bagi lembaga
+                                    pendidikan lainnya teristimewa di kawasan Nusa Tenggara Timur.</span>
+                            </li>
+                        </ul>
+                    @endif
                 </div>
             </div>
         </div>
@@ -325,7 +339,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-blue-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1948</div>
                             </div>
                             <div class="ml-6">
@@ -341,7 +355,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-blue-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1948</div>
                             </div>
                             <div class="ml-6">
@@ -357,7 +371,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-green-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1950-an</div>
                             </div>
                             <div class="ml-6">
@@ -373,7 +387,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-green-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1953</div>
                             </div>
                             <div class="ml-6">
@@ -391,7 +405,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-purple-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1953</div>
                             </div>
                             <div class="ml-6">
@@ -407,7 +421,7 @@
                         <div class="flex items-start">
                             <div class="flex-shrink-0 w-24 text-center">
                                 <div
-                                    class="inline-block bg-purple-600 text-white font-bold px-4 py-2 rounded-full text-sm">
+                                    class="inline-block bg-yellow-400 text-white font-bold px-4 py-2 rounded-full text-sm">
                                     1953</div>
                             </div>
                             <div class="ml-6">
@@ -442,13 +456,13 @@
                     </div>
 
                     <!-- Key Figures -->
-                    <div class="mt-12 p-6 bg-blue-50 rounded-xl">
+                    <div class="mt-12 p-6 bg-yellow-50 rounded-xl">
                         <h3 class="text-xl font-bold text-gray-800 mb-4">Tokoh Pendiri</h3>
                         <div class="grid md:grid-cols-3 gap-6">
                             <div class="text-center">
                                 <div
-                                    class="w-24 h-24 bg-blue-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                                    <svg class="w-12 h-12 text-blue-600" fill="none" stroke="currentColor"
+                                    class="w-24 h-24 bg-yellow-200 rounded-full mx-auto mb-3 flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-yellow-600" fill="none" stroke="currentColor"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
@@ -460,8 +474,8 @@
                             </div>
                             <div class="text-center">
                                 <div
-                                    class="w-24 h-24 bg-green-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                                    <svg class="w-12 h-12 text-green-600" fill="none" stroke="currentColor"
+                                    class="w-24 h-24 bg-yellow-200 rounded-full mx-auto mb-3 flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-yellow-600" fill="none" stroke="currentColor"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
@@ -473,8 +487,8 @@
                             </div>
                             <div class="text-center">
                                 <div
-                                    class="w-24 h-24 bg-purple-200 rounded-full mx-auto mb-3 flex items-center justify-center">
-                                    <svg class="w-12 h-12 text-purple-600" fill="none" stroke="currentColor"
+                                    class="w-24 h-24 bg-yellow-200 rounded-full mx-auto mb-3 flex items-center justify-center">
+                                    <svg class="w-12 h-12 text-yellow-600" fill="none" stroke="currentColor"
                                         viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                             d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z">
@@ -499,10 +513,10 @@
                 <p class="text-gray-600 text-lg max-w-2xl mx-auto">Pesan dari pimpinan SMAK Syuradikara</p>
             </div>
 
-            <div class="bg-gradient-to-br from-blue-50 to-white rounded-2xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-br from-yellow-50 to-white rounded-2xl shadow-lg overflow-hidden">
                 <div class="grid md:grid-cols-3">
                     <!-- Foto Kepala Sekolah -->
-                    <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-8 flex items-center justify-center">
+                    <div class="bg-gradient-to-br from-yellow-400 to-yellow-600 p-8 flex items-center justify-center">
                         <div class="text-center text-white">
                             <div
                                 class="w-40 h-40 bg-white bg-opacity-20 rounded-full mx-auto mb-4 flex items-center justify-center">
@@ -538,12 +552,12 @@
                                 besar kita, rumah yang mengingatkan kepada kita bahwa sekolah dan alumni hendaknya
                                 bersatu hati berjalan bersama dalam terang Sang Sabda.</p>
 
-                            <h3 class="text-xl font-bold text-blue-600 mt-8 mb-4">Lima Program Utama</h3>
+                            <h3 class="text-xl font-bold text-yellow-600 mt-8 mb-4">Lima Program Utama</h3>
 
                             <div class="space-y-4 mt-4">
                                 <div class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                                     <div
-                                        class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                                        class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
                                         1</div>
                                     <p class="text-gray-700">Penguatan pendidikan karakter berbasis spiritualitas
                                         misioner dengan empat matra khas SVD: Animasi Misi, Kitab Suci, Komunikasi, dan
@@ -551,28 +565,28 @@
                                 </div>
                                 <div class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                                     <div
-                                        class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                                        class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
                                         2</div>
                                     <p class="text-gray-700">Penguatan skill melalui seni dan budaya, pembelajaran
                                         berbasis proyek, etos kerja, dedikasi, dan kedisiplinan lingkungan.</p>
                                 </div>
                                 <div class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                                     <div
-                                        class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                                        class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
                                         3</div>
                                     <p class="text-gray-700">Program sekolah sehat - insan yang sehat dalam semua
                                         aspek, kebijakan yang sehat, komunikasi sehat, dan perilaku sehat.</p>
                                 </div>
                                 <div class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                                     <div
-                                        class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                                        class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
                                         4</div>
                                     <p class="text-gray-700">Literasi yang membebaskan - me-literasi-kan semua hal
                                         untuk melawan malas berpikir agar tetap "waras".</p>
                                 </div>
                                 <div class="flex items-start p-4 bg-white rounded-lg shadow-sm">
                                     <div
-                                        class="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
+                                        class="w-8 h-8 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3 flex-shrink-0">
                                         5</div>
                                     <p class="text-gray-700">Pastoral sekolah sebagai senjata iman, harap, dan kasih
                                         yang mewadahi kerohanian dan nilai-nilai religiositas.</p>
@@ -602,7 +616,7 @@
             </div>
 
             <div
-                class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 md:p-12 border-2 border-yellow-200 max-w-4xl mx-auto">
+                class="bg-gradient-to-r from-yellow-50 to-yellow-100 rounded-2xl p-8 md:p-12 border-2 border-yellow-200 max-w-4xl mx-auto">
                 <div class="flex items-center mb-6">
                     <div class="w-16 h-16 bg-yellow-100 rounded-xl flex items-center justify-center mr-4">
                         <svg class="w-10 h-10 text-yellow-600" fill="none" stroke="currentColor"
@@ -624,14 +638,14 @@
             <!-- CTA -->
             <div class="text-center mt-12">
                 <a href="/ppdb"
-                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-200">Daftar
+                    class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-8 rounded-lg transition duration-200">Daftar
                     Sekarang di SMAK Syuradikara</a>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-black text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>

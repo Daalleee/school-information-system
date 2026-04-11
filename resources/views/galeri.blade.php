@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -33,61 +33,61 @@
                 <div class="flex items-center">
                     <a href="/" class="flex items-center">
                         <div
-                            class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
                             S</div>
                         <div>
-                            <h1 class="text-lg font-bold text-blue-600">SMAK Syuradikara</h1>
+                            <h1 class="text-lg font-bold text-yellow-600">SMAK Syuradikara</h1>
                             <p class="text-xs text-gray-500">Pencipta Pahlawan Utama</p>
                         </div>
                     </a>
                 </div>
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="/" class="text-gray-700 hover:text-blue-600 transition font-medium">Beranda</a>
+                    <a href="/" class="text-gray-700 hover:text-yellow-600 transition font-medium">Beranda</a>
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-blue-600 transition font-medium flex items-center">Profil<svg
+                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">Profil<svg
                                 class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M19 9l-7 7-7-7"></path>
                             </svg></button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/profil#visi-misi"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Visi &
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Visi &
                                 Misi</a>
                             <a href="/profil#sejarah"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sejarah</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sejarah</a>
                             <a href="/profil#sambutan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sambutan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sambutan
                                 Kepala Sekolah</a>
                             <a href="/profil#tujuan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Tujuan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Tujuan
                                 Sekolah</a>
                         </div>
                     </div>
-                    <a href="/guru" class="text-gray-700 hover:text-blue-600 transition font-medium">Guru &
+                    <a href="/guru" class="text-gray-700 hover:text-yellow-600 transition font-medium">Guru &
                         Pegawai</a>
-                    <a href="/fasilitas" class="text-gray-700 hover:text-blue-600 transition font-medium">Fasilitas</a>
+                    <a href="/fasilitas" class="text-gray-700 hover:text-yellow-600 transition font-medium">Fasilitas</a>
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-blue-600 font-medium flex items-center">Akademik<svg class="w-4 h-4 ml-1"
+                            class="text-yellow-600 font-medium flex items-center">Akademik<svg class="w-4 h-4 ml-1"
                                 fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M19 9l-7 7-7-7"></path>
                             </svg></button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/berita"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Berita</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Berita</a>
                             <a href="/pengumuman"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Pengumuman</a>
-                            <a href="/galeri" class="block px-4 py-2 bg-blue-50 text-blue-600 font-medium">Galeri</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Pengumuman</a>
+                            <a href="/galeri" class="block px-4 py-2 bg-yellow-50 text-yellow-600 font-medium">Galeri</a>
                         </div>
                     </div>
-                    <a href="/ppdb" class="text-gray-700 hover:text-blue-600 transition font-medium">PPDB</a>
-                    <a href="/kemitraan" class="text-gray-700 hover:text-blue-600 transition font-medium">Kemitraan</a>
-                    <a href="/kontak" class="text-gray-700 hover:text-blue-600 transition font-medium">Kontak</a>
+                    <a href="/ppdb" class="text-gray-700 hover:text-yellow-600 transition font-medium">PPDB</a>
+                    <a href="/kemitraan" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kemitraan</a>
+                    <a href="/kontak" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kontak</a>
                 </div>
                 <div class="flex items-center"><button onclick="openLoginModal()"
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-200">Login</button>
+                        class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-lg transition duration-200">Login</button>
                 </div>
             </div>
         </div>
@@ -120,21 +120,21 @@
                 <form action="{{ route('login') }}" method="POST" class="space-y-4">@csrf
                     <div><label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label><input
                             type="email" name="email" id="email" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="nama@syuradikara.sch.id"></div>
                     <div><label for="password"
                             class="block text-sm font-medium text-gray-700 mb-2">Password</label><input type="password"
                             name="password" id="password" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="••••••••"></div>
                     <div class="flex items-center"><input type="checkbox" name="remember" id="remember"
-                            class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"><label
+                            class="h-4 w-4 text-yellow-600 focus:ring-yellow-400 border-gray-300 rounded"><label
                             for="remember" class="ml-2 block text-sm text-gray-700">Ingat saya</label></div>
                     <button type="submit"
-                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-200">Masuk
+                        class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition duration-200">Masuk
                         ke Sistem</button>
                 </form>
-                <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+                <div class="mt-4 p-4 bg-yellow-50 rounded-lg">
                     <p class="text-sm text-gray-700 font-medium mb-2">Demo Login:</p>
                     <p class="text-xs text-gray-600">Admin: admin@sekolah.com / admin123</p>
                     <p class="text-xs text-gray-600">Guru: guru@sekolah.com / guru123</p>
@@ -145,7 +145,7 @@
 
     <!-- Hero -->
     <section class="pt-16">
-        <div class="relative bg-gradient-to-br from-pink-500 via-pink-600 to-pink-800 text-white overflow-hidden">
+        <div class="relative bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600 text-white overflow-hidden">
             <div class="absolute inset-0 opacity-10">
                 <div class="absolute top-20 left-10 w-64 h-64 bg-white rounded-full blur-3xl"></div>
                 <div class="absolute bottom-20 right-10 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -155,7 +155,7 @@
                     <div class="inline-block bg-white bg-opacity-20 px-4 py-2 rounded-full text-sm font-medium mb-6">
                         Dokumentasi</div>
                     <h1 class="text-5xl md:text-6xl font-bold mb-6">Galeri Sekolah</h1>
-                    <p class="text-xl text-pink-100 max-w-3xl mx-auto">Momen-momen berharga dari berbagai kegiatan SMAK
+                    <p class="text-xl text-yellow-100 max-w-3xl mx-auto">Momen-momen berharga dari berbagai kegiatan SMAK
                         Syuradikara</p>
                 </div>
             </div>
@@ -166,7 +166,7 @@
     <section class="py-8 bg-white shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-wrap gap-3">
-                <button class="px-5 py-2 bg-pink-600 text-white rounded-full text-sm font-medium">Semua</button>
+                <button class="px-5 py-2 bg-yellow-400 text-white rounded-full text-sm font-medium">Semua</button>
                 <button
                     class="px-5 py-2 bg-gray-100 text-gray-700 rounded-full text-sm font-medium hover:bg-gray-200 transition">Kegiatan
                     Belajar</button>
@@ -186,211 +186,51 @@
     <!-- Gallery Grid -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- Photo 1 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-blue-400 to-blue-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Kegiatan Belajar di Kelas</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="galleryGrid">
+                @forelse($galeriList ?? [] as $item)
+                    <div class="relative group overflow-hidden rounded-xl cursor-pointer"
+                        data-src="{{ asset('storage/' . $item->gambar) }}" data-alt="{{ $item->judul }}"
+                        data-caption="{{ $item->judul }}{{ $item->kategori ? ' - ' . $item->kategori : '' }}"
+                        onclick="openLightboxFromData('#galleryGrid > div', this.dataset.index)"
+                        data-index="{{ $loop->index }}">
+                        <div class="h-64">
+                            <img src="{{ asset('storage/' . $item->gambar) }}" alt="{{ $item->judul }}"
+                                class="w-full h-full object-cover hover:scale-110 transition duration-500">
+                        </div>
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+                            <div
+                                class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
+                                <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7">
+                                    </path>
+                                </svg>
+                                <p class="text-sm font-medium px-2">{{ $item->judul }}</p>
+                                <p class="text-xs mt-1 opacity-75">Klik untuk memperbesar</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Photo 2 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-green-400 to-green-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Upacara Bendera</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 3 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-purple-400 to-purple-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Perayaan Hari Besar</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 4 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-orange-400 to-orange-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Lapangan Olahraga</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 5 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-red-400 to-red-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Praktikum Lab IPA</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 6 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-teal-400 to-teal-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Pertandingan Voli</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 7 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-indigo-400 to-indigo-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Pentas Seni</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 8 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-pink-400 to-pink-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Perpustakaan</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 9 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-yellow-400 to-yellow-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Bakti Sosial</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 10 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-cyan-400 to-cyan-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Lab Komputer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 11 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-lime-400 to-lime-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Wisuda Alumni</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Photo 12 -->
-                <div class="relative group overflow-hidden rounded-xl cursor-pointer">
-                    <div class="h-64 bg-gradient-to-br from-rose-400 to-rose-600"></div>
-                    <div
-                        class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
-                        <div class="text-center text-white opacity-0 group-hover:opacity-100 transition duration-300">
-                            <svg class="w-10 h-10 mx-auto mb-2" fill="none" stroke="currentColor"
-                                viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path>
-                            </svg>
-                            <p class="text-sm font-medium px-2">Kegiatan Pastoral</p>
-                        </div>
-                    </div>
-                </div>
+                @empty
+                    <p class="text-center text-gray-500 col-span-4">Belum ada foto</p>
+                @endforelse
             </div>
 
-            <!-- Load More -->
-            <div class="text-center mt-12">
-                <button
-                    class="inline-block bg-pink-600 hover:bg-pink-700 text-white font-medium py-3 px-8 rounded-lg transition duration-200">Muat
-                    Lebih Banyak</button>
-            </div>
+            <!-- Include Lightbox -->
+            @include('components.lightbox')
+
+            <!-- Pagination -->
+            @if (isset($galeriList) && $galeriList instanceof \Illuminate\Contracts\Pagination\LengthAwarePaginator)
+                <div class="flex justify-center mt-12">
+                    {{ $galeriList->links() }}
+                </div>
+            @endif
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-black text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>

@@ -11,5 +11,10 @@ class KontakPesan extends Model
         'nama',
         'email',
         'pesan',
+        'is_read',
+    ];
+
+    protected $casts = [
+        'is_read' => 'boolean',
     ];
 }

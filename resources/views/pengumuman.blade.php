@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -33,21 +33,21 @@
                 <div class="flex items-center">
                     <a href="/" class="flex items-center">
                         <div
-                            class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                            class="w-10 h-10 bg-yellow-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
                             S</div>
                         <div>
-                            <h1 class="text-lg font-bold text-blue-600">SMAK Syuradikara</h1>
+                            <h1 class="text-lg font-bold text-yellow-600">SMAK Syuradikara</h1>
                             <p class="text-xs text-gray-500">Pencipta Pahlawan Utama</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="/#home" class="text-gray-700 hover:text-blue-600 transition font-medium">Beranda</a>
+                    <a href="/#home" class="text-gray-700 hover:text-yellow-600 transition font-medium">Beranda</a>
 
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-blue-600 transition font-medium flex items-center">
+                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
                             Profil
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,26 +56,26 @@
                         </button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/profil#visi-misi"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Visi &
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Visi &
                                 Misi</a>
                             <a href="/profil#sejarah"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sejarah</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sejarah</a>
                             <a href="/profil#sambutan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Sambutan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sambutan
                                 Kepala Sekolah</a>
                             <a href="/profil#tujuan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Tujuan
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Tujuan
                                 Sekolah</a>
                         </div>
                     </div>
 
-                    <a href="/guru" class="text-gray-700 hover:text-blue-600 transition font-medium">Guru &
+                    <a href="/guru" class="text-gray-700 hover:text-yellow-600 transition font-medium">Guru &
                         Pegawai</a>
-                    <a href="/fasilitas" class="text-gray-700 hover:text-blue-600 transition font-medium">Fasilitas</a>
+                    <a href="/fasilitas" class="text-gray-700 hover:text-yellow-600 transition font-medium">Fasilitas</a>
 
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-blue-600 transition font-medium flex items-center">
+                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
                             Akademik
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -84,22 +84,22 @@
                         </button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/berita"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Berita</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Berita</a>
                             <a href="/pengumuman"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Pengumuman</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Pengumuman</a>
                             <a href="/galeri"
-                                class="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600">Galeri</a>
+                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Galeri</a>
                         </div>
                     </div>
 
-                    <a href="/ppdb" class="text-gray-700 hover:text-blue-600 transition font-medium">PPDB</a>
-                    <a href="/kemitraan" class="text-gray-700 hover:text-blue-600 transition font-medium">Kemitraan</a>
-                    <a href="/kontak" class="text-gray-700 hover:text-blue-600 transition font-medium">Kontak</a>
+                    <a href="/ppdb" class="text-gray-700 hover:text-yellow-600 transition font-medium">PPDB</a>
+                    <a href="/kemitraan" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kemitraan</a>
+                    <a href="/kontak" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kontak</a>
                 </div>
 
                 <div class="flex items-center">
                     <button onclick="openLoginModal()"
-                        class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-200">
+                        class="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 rounded-lg transition duration-200">
                         Login
                     </button>
                 </div>
@@ -139,26 +139,26 @@
                     <div>
                         <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
                         <input type="email" name="email" id="email" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="nama@syuradikara.sch.id">
                     </div>
                     <div>
                         <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Password</label>
                         <input type="password" name="password" id="password" required
-                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="••••••••">
                     </div>
                     <div class="flex items-center">
                         <input type="checkbox" name="remember" id="remember"
-                            class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded">
+                            class="h-4 w-4 text-yellow-600 focus:ring-yellow-400 border-gray-300 rounded">
                         <label for="remember" class="ml-2 block text-sm text-gray-700">Ingat saya</label>
                     </div>
                     <button type="submit"
-                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-200">Masuk
+                        class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition duration-200">Masuk
                         ke Sistem</button>
                 </form>
 
-                <div class="mt-4 p-4 bg-blue-50 rounded-lg">
+                <div class="mt-4 p-4 bg-yellow-50 rounded-lg">
                     <p class="text-sm text-gray-700 font-medium mb-2">Demo Login:</p>
                     <p class="text-xs text-gray-600">Admin: admin@sekolah.com / admin123</p>
                     <p class="text-xs text-gray-600">Guru: guru@sekolah.com / guru123</p>
@@ -168,10 +168,10 @@
     </div>
 
     <!-- Hero -->
-    <section class="pt-24 pb-12 bg-gradient-to-br from-orange-600 to-orange-800 text-white">
+    <section class="pt-24 pb-12 bg-gradient-to-br from-yellow-400 to-yellow-600 text-white">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-4">Pengumuman</h1>
-            <p class="text-xl text-orange-100">Informasi resmi dari SMAK Syuradikara</p>
+            <p class="text-xl text-yellow-100">Informasi resmi dari SMAK Syuradikara</p>
         </div>
     </section>
 
@@ -179,50 +179,32 @@
     <section class="py-12">
         <div class="max-w-4xl mx-auto px-4">
             <div class="space-y-6">
-                <!-- Pengumuman Item -->
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="flex items-center justify-between mb-4">
-                        <span
-                            class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Penting</span>
-                        <span class="text-gray-500 text-sm">10 April 2026</span>
+                @forelse($pengumumanList ?? [] as $item)
+                    <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
+                        <div class="flex items-center justify-between mb-4">
+                            <span
+                                class="bg-yellow-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Pengumuman</span>
+                            <span class="text-gray-500 text-sm">{{ $item->tanggal->format('d M Y') }}</span>
+                        </div>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-2">{{ $item->judul }}</h2>
+                        <p class="text-gray-600 mb-4">{{ Str::limit($item->isi, 150) }}</p>
                     </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Pendaftaran PPDB 2026/2027 Dibuka</h2>
-                    <p class="text-gray-600 mb-4">Pendaftaran siswa baru tahun ajaran 2026/2027 telah resmi dibuka.
-                        Silakan daftar melalui halaman PPDB atau datang langsung ke sekolah.</p>
-                    <a href="/ppdb" class="text-orange-600 hover:text-orange-700 font-medium">Baca selengkapnya
-                        →</a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="flex items-center justify-between mb-4">
-                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">Info</span>
-                        <span class="text-gray-500 text-sm">5 April 2026</span>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Jadwal Ujian Tengah Semester Genap</h2>
-                    <p class="text-gray-600 mb-4">UTS Semester Genap akan dilaksanakan pada tanggal 15-20 April 2026.
-                        Siswa diharapkan mempersiapkan diri dengan baik.</p>
-                    <a href="#" class="text-orange-600 hover:text-orange-700 font-medium">Baca selengkapnya
-                        →</a>
-                </div>
-
-                <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
-                    <div class="flex items-center justify-between mb-4">
-                        <span
-                            class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">Kegiatan</span>
-                        <span class="text-gray-500 text-sm">1 April 2026</span>
-                    </div>
-                    <h2 class="text-2xl font-bold text-gray-800 mb-2">Perayaan Hari Pendidikan Nasional</h2>
-                    <p class="text-gray-600 mb-4">SMAK Syuradikara akan mengadakan berbagai lomba dan kegiatan dalam
-                        rangka Hari Pendidikan Nasional 2 Mei.</p>
-                    <a href="#" class="text-orange-600 hover:text-orange-700 font-medium">Baca selengkapnya
-                        →</a>
-                </div>
+                @empty
+                    <p class="text-center text-gray-500">Belum ada pengumuman</p>
+                @endforelse
             </div>
+
+            <!-- Pagination -->
+            @if (isset($pengumumanList) && $pengumumanList instanceof \Illuminate\Contracts\Pagination\LengthAwarePaginator)
+                <div class="flex justify-center mt-12">
+                    {{ $pengumumanList->links() }}
+                </div>
+            @endif
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
+    <footer class="bg-black text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>

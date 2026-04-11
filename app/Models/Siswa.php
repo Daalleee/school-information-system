@@ -15,4 +15,12 @@ class Siswa extends Model
         'alamat',
         'foto',
     ];
+
+    /**
+     * Get jenis kelamin label
+     */
+    public function getJenisKelaminLabelAttribute(): string
+    {
+        return $this->jenis_kelamin === 'L' ? 'Laki-laki' : 'Perempuan';
+    }
 }
