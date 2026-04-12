@@ -25,7 +25,7 @@
     </style>
 </head>
 
-<body class="bg-gray-50">
+<body class="bg-white">
     <!-- Navbar -->
     <nav class="bg-white shadow-md fixed w-full top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -37,17 +37,17 @@
                             S</div>
                         <div>
                             <h1 class="text-lg font-bold text-yellow-600">SMAK Syuradikara</h1>
-                            <p class="text-xs text-gray-500">Pencipta Pahlawan Utama</p>
+                            <p class="text-xs text-black">Pencipta Pahlawan Utama</p>
                         </div>
                     </a>
                 </div>
 
                 <div class="hidden md:flex items-center space-x-6">
-                    <a href="/#home" class="text-gray-700 hover:text-yellow-600 transition font-medium">Beranda</a>
+                    <a href="/#home" class="text-black hover:text-yellow-600 transition font-medium">Beranda</a>
 
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
+                            class="text-black hover:text-yellow-600 transition font-medium flex items-center">
                             Profil
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -56,26 +56,26 @@
                         </button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/profil#visi-misi"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Visi &
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Visi &
                                 Misi</a>
                             <a href="/profil#sejarah"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sejarah</a>
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Sejarah</a>
                             <a href="/profil#sambutan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Sambutan
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Sambutan
                                 Kepala Sekolah</a>
                             <a href="/profil#tujuan"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Tujuan
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Tujuan
                                 Sekolah</a>
                         </div>
                     </div>
 
-                    <a href="/guru" class="text-gray-700 hover:text-yellow-600 transition font-medium">Guru &
+                    <a href="/guru" class="text-black hover:text-yellow-600 transition font-medium">Guru &
                         Pegawai</a>
-                    <a href="/fasilitas" class="text-gray-700 hover:text-yellow-600 transition font-medium">Fasilitas</a>
+                    <a href="/fasilitas" class="text-black hover:text-yellow-600 transition font-medium">Fasilitas</a>
 
                     <div class="relative dropdown">
                         <button onclick="toggleDropdown(this)"
-                            class="text-gray-700 hover:text-yellow-600 transition font-medium flex items-center">
+                            class="text-black hover:text-yellow-600 transition font-medium flex items-center">
                             Akademik
                             <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -84,17 +84,17 @@
                         </button>
                         <div class="dropdown-menu absolute bg-white shadow-lg rounded-lg mt-2 py-2 min-w-[200px]">
                             <a href="/berita"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Berita</a>
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Berita</a>
                             <a href="/pengumuman"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Pengumuman</a>
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Pengumuman</a>
                             <a href="/galeri"
-                                class="block px-4 py-2 text-gray-700 hover:bg-yellow-50 hover:text-yellow-600">Galeri</a>
+                                class="block px-4 py-2 text-black hover:bg-yellow-100 hover:text-black">Galeri</a>
                         </div>
                     </div>
 
-                    <a href="/ppdb" class="text-gray-700 hover:text-yellow-600 transition font-medium">PPDB</a>
-                    <a href="/kemitraan" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kemitraan</a>
-                    <a href="/kontak" class="text-gray-700 hover:text-yellow-600 transition font-medium">Kontak</a>
+                    <a href="/ppdb" class="text-black hover:text-yellow-600 transition font-medium">PPDB</a>
+                    <a href="/kemitraan" class="text-black hover:text-yellow-600 transition font-medium">Kemitraan</a>
+                    <a href="/kontak" class="text-black hover:text-yellow-600 transition font-medium">Kontak</a>
                 </div>
 
                 <div class="flex items-center">
@@ -113,10 +113,10 @@
         <div class="bg-white rounded-lg shadow-xl w-full max-w-md mx-4">
             <div class="flex justify-between items-center p-6 border-b">
                 <div>
-                    <h2 class="text-2xl font-bold text-gray-800">Login</h2>
-                    <p class="text-gray-600 text-sm mt-1">Masuk ke sistem informasi sekolah</p>
+                    <h2 class="text-2xl font-bold text-black">Login</h2>
+                    <p class="text-black text-sm mt-1">Masuk ke sistem informasi sekolah</p>
                 </div>
-                <button onclick="closeLoginModal()" class="text-gray-400 hover:text-gray-600">
+                <button onclick="closeLoginModal()" class="text-black hover:text-black">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
                         </path>
@@ -125,7 +125,7 @@
             </div>
             <div class="p-6">
                 @if ($errors->any())
-                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+                    <div class="bg-yellow-100 border border-black text-black px-4 py-3 rounded mb-4">
                         <ul class="list-disc list-inside">
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
@@ -137,13 +137,13 @@
                 <form action="{{ route('login') }}" method="POST" class="space-y-4">
                     @csrf
                     <div>
-                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+                        <label for="email" class="block text-sm font-medium text-black mb-2">Email</label>
                         <input type="email" name="email" id="email" required
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="nama@syuradikara.sch.id">
                     </div>
                     <div>
-                        <label for="password" class="block text-sm font-medium text-gray-700 mb-2">Password</label>
+                        <label for="password" class="block text-sm font-medium text-black mb-2">Password</label>
                         <input type="password" name="password" id="password" required
                             class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
                             placeholder="••••••••">
@@ -151,7 +151,7 @@
                     <div class="flex items-center">
                         <input type="checkbox" name="remember" id="remember"
                             class="h-4 w-4 text-yellow-600 focus:ring-yellow-400 border-gray-300 rounded">
-                        <label for="remember" class="ml-2 block text-sm text-gray-700">Ingat saya</label>
+                        <label for="remember" class="ml-2 block text-sm text-black">Ingat saya</label>
                     </div>
                     <button type="submit"
                         class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-4 rounded-lg transition duration-200">Masuk
@@ -159,19 +159,19 @@
                 </form>
 
                 <div class="mt-4 p-4 bg-yellow-50 rounded-lg">
-                    <p class="text-sm text-gray-700 font-medium mb-2">Demo Login:</p>
-                    <p class="text-xs text-gray-600">Admin: admin@sekolah.com / admin123</p>
-                    <p class="text-xs text-gray-600">Guru: guru@sekolah.com / guru123</p>
+                    <p class="text-sm text-black font-medium mb-2">Demo Login:</p>
+                    <p class="text-xs text-black">Admin: admin@sekolah.com / admin123</p>
+                    <p class="text-xs text-black">Guru: guru@sekolah.com / guru123</p>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Hero -->
-    <section class="pt-24 pb-12 bg-gradient-to-br from-yellow-400 to-yellow-600 text-white">
+    <section class="pt-24 pb-12 bg-yellow-400 text-white">
         <div class="max-w-7xl mx-auto px-4 text-center">
             <h1 class="text-5xl font-bold mb-4">Pengumuman</h1>
-            <p class="text-xl text-yellow-100">Informasi resmi dari SMAK Syuradikara</p>
+            <p class="text-xl text-black">Informasi resmi dari SMAK Syuradikara</p>
         </div>
     </section>
 
@@ -183,14 +183,14 @@
                     <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition">
                         <div class="flex items-center justify-between mb-4">
                             <span
-                                class="bg-yellow-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">Pengumuman</span>
-                            <span class="text-gray-500 text-sm">{{ $item->tanggal->format('d M Y') }}</span>
+                                class="bg-yellow-100 text-black px-3 py-1 rounded-full text-sm font-medium">Pengumuman</span>
+                            <span class="text-black text-sm">{{ $item->tanggal->format('d M Y') }}</span>
                         </div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-2">{{ $item->judul }}</h2>
-                        <p class="text-gray-600 mb-4">{{ Str::limit($item->isi, 150) }}</p>
+                        <h2 class="text-2xl font-bold text-black mb-2">{{ $item->judul }}</h2>
+                        <p class="text-black mb-4">{{ Str::limit($item->isi, 150) }}</p>
                     </div>
                 @empty
-                    <p class="text-center text-gray-500">Belum ada pengumuman</p>
+                    <p class="text-center text-black">Belum ada pengumuman</p>
                 @endforelse
             </div>
 
@@ -204,13 +204,13 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-black text-white py-12">
+    <footer class="bg-yellow-400 text-black py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-3 gap-8 mb-8">
                 <div>
                     <h3 class="text-xl font-bold mb-4">SMAK Syuradikara</h3>
-                    <p class="text-gray-400 mb-4">Pencipta Pahlawan Utama</p>
-                    <p class="text-gray-400 text-sm">
+                    <p class="text-black mb-4">Pencipta Pahlawan Utama</p>
+                    <p class="text-black text-sm">
                         Jl. Wirajaya, Kel. Onekore, Kec. Ende Tengah<br>
                         Kabupaten Ende, Nusa Tenggara Tim. 86312<br>
                         Telp: (0381) 21648
@@ -219,30 +219,30 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Link Cepat</h3>
                     <ul class="space-y-2">
-                        <li><a href="/profil" class="text-gray-400 hover:text-white transition">Profil Sekolah</a>
+                        <li><a href="/profil" class="text-black hover:text-white transition">Profil Sekolah</a>
                         </li>
-                        <li><a href="/guru" class="text-gray-400 hover:text-white transition">Guru & Pegawai</a>
+                        <li><a href="/guru" class="text-black hover:text-white transition">Guru & Pegawai</a>
                         </li>
-                        <li><a href="/ppdb" class="text-gray-400 hover:text-white transition">PPDB Online</a></li>
-                        <li><a href="/berita" class="text-gray-400 hover:text-white transition">Berita</a></li>
-                        <li><a href="/pengumuman" class="text-gray-400 hover:text-white transition">Pengumuman</a>
+                        <li><a href="/ppdb" class="text-black hover:text-white transition">PPDB Online</a></li>
+                        <li><a href="/berita" class="text-black hover:text-white transition">Berita</a></li>
+                        <li><a href="/pengumuman" class="text-black hover:text-white transition">Pengumuman</a>
                         </li>
-                        <li><a href="/kontak" class="text-gray-400 hover:text-white transition">Kontak</a></li>
+                        <li><a href="/kontak" class="text-black hover:text-white transition">Kontak</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Jam Operasional</h3>
-                    <ul class="space-y-2 text-gray-400">
+                    <ul class="space-y-2 text-black">
                         <li>Senin - Jumat: 07:00 - 15:00</li>
                         <li>Sabtu: 07:00 - 12:00</li>
                         <li>Minggu: Tutup</li>
                     </ul>
                 </div>
             </div>
-            <div class="border-t border-gray-700 pt-8 text-center">
-                <p class="text-gray-400">&copy; 2026 SMAK Syuradikara - Pencipta Pahlawan Utama. All rights reserved.
+            <div class="border-t border-black pt-8 text-center">
+                <p class="text-black">&copy; 2026 SMAK Syuradikara - Pencipta Pahlawan Utama. All rights reserved.
                 </p>
-                <p class="text-gray-500 text-sm mt-2">Ende, Nusa Tenggara Timur, Indonesia</p>
+                <p class="text-black text-sm mt-2">Ende, Nusa Tenggara Timur, Indonesia</p>
             </div>
         </div>
     </footer>
