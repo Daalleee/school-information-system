@@ -8,10 +8,10 @@
     <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4">
         <div>
             <h1 class="text-3xl font-bold text-gray-900">Edit Halaman</h1>
-            <p class="text-gray-600 mt-1">Perbarui informasi halaman</p>
+            <p class="text-black mt-1">Perbarui informasi halaman</p>
         </div>
         <a href="{{ route('admin.halaman.index') }}"
-            class="inline-flex items-center px-4 py-2.5 bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium rounded-lg shadow-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
+            class="inline-flex items-center px-4 py-2.5 bg-black hover:bg-gray-300 text-black font-medium rounded-lg shadow-sm transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
             <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -28,23 +28,23 @@
 
             <!-- Judul Field -->
             <div>
-                <label for="judul" class="block text-sm font-semibold text-gray-700 mb-2">
-                    Judul Halaman <span class="text-red-500">*</span>
+                <label for="judul" class="block text-sm font-semibold text-black mb-2">
+                    Judul Halaman <span class="text-black">*</span>
                 </label>
                 <div class="flex gap-2">
                     <div class="relative flex-1">
                         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
                             </svg>
                         </div>
                         <input type="text" name="judul" id="judul" value="{{ old('judul', $halaman->judul) }}" required
                             placeholder="Masukkan judul halaman"
-                            class="pl-10 block w-full rounded-lg border @error('judul') border-red-500 @else border-gray-300 @enderror focus:ring-blue-500 focus:border-blue-500 shadow-sm py-2.5 text-sm @error('judul') ring-2 ring-red-200 @enderror">
+                            class="pl-10 block w-full rounded-lg border @error('judul') border-yellow-400 @else border-gray-300 @enderror focus:ring-yellow-400 focus:border-yellow-400 shadow-sm py-2.5 text-sm @error('judul') ring-2 ring-yellow-200 @enderror">
                     </div>
                     <button type="button" id="generateSlug"
-                        class="inline-flex items-center px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-lg shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 whitespace-nowrap">
+                        class="inline-flex items-center px-4 py-2.5 bg-yellow-400 hover:bg-yellow-500 text-black text-sm font-medium rounded-lg shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 whitespace-nowrap">
                         <svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
@@ -53,7 +53,7 @@
                     </button>
                 </div>
                 @error('judul')
-                    <p class="mt-2 text-sm text-red-600 flex items-center">
+                    <p class="mt-2 text-sm text-black flex items-center">
                         <svg class="w-4 h-4 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
@@ -66,22 +66,22 @@
 
             <!-- Slug Field -->
             <div>
-                <label for="slug" class="block text-sm font-semibold text-gray-700 mb-2">
-                    Slug <span class="text-red-500">*</span>
+                <label for="slug" class="block text-sm font-semibold text-black mb-2">
+                    Slug <span class="text-black">*</span>
                 </label>
                 <div class="relative">
                     <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                        <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14" />
                         </svg>
                     </div>
                     <input type="text" name="slug" id="slug" value="{{ old('slug', $halaman->slug) }}" required
                         placeholder="slug-halaman"
-                        class="pl-10 block w-full rounded-lg border @error('slug') border-red-500 @else border-gray-300 @enderror focus:ring-blue-500 focus:border-blue-500 shadow-sm py-2.5 text-sm @error('slug') ring-2 ring-red-200 @enderror">
+                        class="pl-10 block w-full rounded-lg border @error('slug') border-yellow-400 @else border-gray-300 @enderror focus:ring-yellow-400 focus:border-yellow-400 shadow-sm py-2.5 text-sm @error('slug') ring-2 ring-yellow-200 @enderror">
                 </div>
                 @error('slug')
-                    <p class="mt-2 text-sm text-red-600 flex items-center">
+                    <p class="mt-2 text-sm text-black flex items-center">
                         <svg class="w-4 h-4 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
@@ -94,14 +94,14 @@
 
             <!-- Konten Field -->
             <div>
-                <label for="konten" class="block text-sm font-semibold text-gray-700 mb-2">
-                    Konten Halaman <span class="text-red-500">*</span>
+                <label for="konten" class="block text-sm font-semibold text-black mb-2">
+                    Konten Halaman <span class="text-black">*</span>
                 </label>
                 <textarea name="konten" id="konten" rows="16" required
                     placeholder="Tulis konten halaman di sini..."
-                    class="block w-full rounded-lg border @error('konten') border-red-500 @else border-gray-300 @enderror focus:ring-blue-500 focus:border-blue-500 shadow-sm py-2.5 text-sm @error('konten') ring-2 ring-red-200 @enderror">{{ old('konten', $halaman->konten) }}</textarea>
+                    class="block w-full rounded-lg border @error('konten') border-yellow-400 @else border-gray-300 @enderror focus:ring-yellow-400 focus:border-yellow-400 shadow-sm py-2.5 text-sm @error('konten') ring-2 ring-yellow-200 @enderror">{{ old('konten', $halaman->konten) }}</textarea>
                 @error('konten')
-                    <p class="mt-2 text-sm text-red-600 flex items-center">
+                    <p class="mt-2 text-sm text-black flex items-center">
                         <svg class="w-4 h-4 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd"
                                 d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z"
@@ -110,21 +110,21 @@
                         {{ $message }}
                     </p>
                 @enderror
-                <p class="mt-2 text-xs text-gray-500">
+                <p class="mt-2 text-xs text-black">
                     Tip: Anda dapat menggunakan tag HTML untuk memformat konten.
                 </p>
             </div>
 
             <!-- Halaman Info Section -->
-            <div class="bg-gray-50 rounded-lg p-4 border border-gray-200">
-                <h3 class="text-sm font-semibold text-gray-700 mb-3">Informasi Halaman</h3>
+            <div class="bg-white rounded-lg p-4 border border-gray-200">
+                <h3 class="text-sm font-semibold text-black mb-3">Informasi Halaman</h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                     <div>
-                        <span class="text-gray-500">Dibuat pada:</span>
+                        <span class="text-black">Dibuat pada:</span>
                         <span class="ml-2 text-gray-900 font-medium">{{ $halaman->created_at->format('d M Y, H:i') }}</span>
                     </div>
                     <div>
-                        <span class="text-gray-500">Terakhir diperbarui:</span>
+                        <span class="text-black">Terakhir diperbarui:</span>
                         <span class="ml-2 text-gray-900 font-medium">{{ $halaman->updated_at->format('d M Y, H:i') }}</span>
                     </div>
                 </div>
@@ -133,11 +133,11 @@
             <!-- Form Actions -->
             <div class="flex items-center justify-end space-x-3 pt-6 border-t border-gray-200">
                 <a href="{{ route('admin.halaman.index') }}"
-                    class="inline-flex items-center px-5 py-2.5 bg-gray-200 hover:bg-gray-300 text-gray-700 font-medium rounded-lg shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
+                    class="inline-flex items-center px-5 py-2.5 bg-black hover:bg-gray-300 text-black font-medium rounded-lg shadow-sm transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2">
                     Batal
                 </a>
                 <button type="submit"
-                    class="inline-flex items-center px-5 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                    class="inline-flex items-center px-5 py-2.5 bg-yellow-400 hover:bg-yellow-500 text-black font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
                     <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M5 13l4 4L19 7" />
