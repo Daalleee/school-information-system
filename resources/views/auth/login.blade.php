@@ -6,25 +6,25 @@
     <title>Login - Sistem Sekolah</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100">
+<body class="bg-white">
     <div class="min-h-screen flex items-center justify-center">
         <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
             <!-- Logo / Header -->
             <div class="text-center mb-8">
-                <h1 class="text-3xl font-bold text-gray-800">Sistem Sekolah</h1>
-                <p class="text-gray-600 mt-2">Silakan login ke akun Anda</p>
+                <h1 class="text-3xl font-bold text-black">Sistem Sekolah</h1>
+                <p class="text-black mt-2">Silakan login ke akun Anda</p>
             </div>
 
             <!-- Success Message -->
             @if (session('success'))
-                <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6">
+                <div class="bg-yellow-100 border border-yellow-400 text-black px-4 py-3 rounded mb-6">
                     {{ session('success') }}
                 </div>
             @endif
 
             <!-- Error Messages -->
             @if ($errors->any())
-                <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
+                <div class="bg-yellow-100 border border-black text-black px-4 py-3 rounded mb-6">
                     <ul class="list-disc list-inside">
                         @foreach ($errors->all() as $error)
                             <li>{{ $error }}</li>
@@ -39,7 +39,7 @@
 
                 <!-- Email -->
                 <div>
-                    <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                    <label for="email" class="block text-sm font-medium text-black mb-2">
                         Email
                     </label>
                     <input 
@@ -48,14 +48,14 @@
                         id="email" 
                         value="{{ old('email') }}"
                         required
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent @error('email') border-red-500 @enderror"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent @error('email') border-yellow-400 @enderror"
                         placeholder="nama@sekolah.com"
                     >
                 </div>
 
                 <!-- Password -->
                 <div>
-                    <label for="password" class="block text-sm font-medium text-gray-700 mb-2">
+                    <label for="password" class="block text-sm font-medium text-black mb-2">
                         Password
                     </label>
                     <input 
@@ -63,7 +63,7 @@
                         name="password" 
                         id="password" 
                         required
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent @error('password') border-red-500 @enderror"
+                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent @error('password') border-yellow-400 @enderror"
                         placeholder="••••••••"
                     >
                 </div>
@@ -74,9 +74,9 @@
                         type="checkbox" 
                         name="remember" 
                         id="remember" 
-                        class="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                        class="h-4 w-4 text-black focus:ring-yellow-400 border-gray-300 rounded"
                     >
-                    <label for="remember" class="ml-2 block text-sm text-gray-700">
+                    <label for="remember" class="ml-2 block text-sm text-black">
                         Ingat saya
                     </label>
                 </div>
@@ -84,7 +84,7 @@
                 <!-- Submit Button -->
                 <button 
                     type="submit" 
-                    class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-200"
+                    class="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-medium py-2 px-4 rounded-lg transition duration-200"
                 >
                     Login
                 </button>
@@ -92,9 +92,9 @@
 
             <!-- Register Link -->
             <div class="mt-6 text-center">
-                <p class="text-gray-600">
+                <p class="text-black">
                     Belum punya akun? 
-                    <a href="{{ route('register') }}" class="text-blue-600 hover:text-blue-700 font-medium">
+                    <a href="{{ route('register') }}" class="text-black hover:text-black font-medium">
                         Daftar sekarang
                     </a>
                 </p>

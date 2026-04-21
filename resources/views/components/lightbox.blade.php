@@ -1,19 +1,19 @@
 <!-- Lightbox Component (Universal) -->
 <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden items-center justify-center p-4"
     onclick="closeLightbox()">
-    <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white hover:text-gray-300 transition z-50">
+    <button onclick="closeLightbox()" class="absolute top-4 right-4 text-white hover:text-white transition z-50">
         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
         </svg>
     </button>
     <button onclick="event.stopPropagation(); prevImage()"
-        class="absolute left-4 text-white hover:text-gray-300 transition z-50 bg-black bg-opacity-50 rounded-full p-2">
+        class="absolute left-4 text-white hover:text-white transition z-50 bg-black bg-opacity-50 rounded-full p-2">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
         </svg>
     </button>
     <button onclick="event.stopPropagation(); nextImage()"
-        class="absolute right-4 text-white hover:text-gray-300 transition z-50 bg-black bg-opacity-50 rounded-full p-2">
+        class="absolute right-4 text-white hover:text-white transition z-50 bg-black bg-opacity-50 rounded-full p-2">
         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
