@@ -10,7 +10,7 @@
     @stack('styles')
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-white">
     <div class="min-h-screen flex">
         <!-- Sidebar Overlay (Mobile) -->
         <div id="sidebarOverlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden lg:hidden"
@@ -18,13 +18,13 @@
 
         <!-- Sidebar -->
         <aside id="sidebar"
-            class="fixed lg:static inset-y-0 left-0 z-40 w-64 bg-gray-900 text-white transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out flex flex-col overflow-hidden">
+            class="fixed lg:static inset-y-0 left-0 z-40 w-64 bg-black text-white transform -translate-x-full lg:translate-x-0 transition-transform duration-300 ease-in-out flex flex-col overflow-hidden">
             <!-- User Profile Section -->
-            <div class="p-6 border-b border-gray-800">
+            <div class="p-6 border-b border-black">
                 <div class="flex items-center space-x-4">
                     <div class="flex-shrink-0">
                         <div
-                            class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">
+                            class="w-12 h-12 rounded-full bg-yellow-400 flex items-center justify-center text-black font-bold text-lg">
                             {{ strtoupper(substr(auth()->user()->name ?? 'A', 0, 1)) }}
                         </div>
                     </div>
@@ -32,11 +32,11 @@
                         <p class="text-sm font-semibold text-white truncate">
                             {{ auth()->user()->name ?? 'Admin' }}
                         </p>
-                        <p class="text-xs text-gray-400 truncate">
+                        <p class="text-xs text-white truncate">
                             {{ auth()->user()->email ?? 'admin@school.com' }}
                         </p>
                         <span
-                            class="inline-block mt-1 px-2 py-0.5 text-xs font-medium bg-blue-600 text-white rounded-full">
+                            class="inline-block mt-1 px-2 py-0.5 text-xs font-medium bg-yellow-400 text-black rounded-full">
                             {{ ucwords(auth()->user()->role ?? 'admin') }}
                         </span>
                     </div>
@@ -117,7 +117,7 @@
                             request()->is(str_replace('.', '/', $item['route']) . '*');
                     @endphp
                     <a href="{{ route($item['route']) }}"
-                        class="flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 {{ $isActive ? 'bg-blue-600 text-white shadow-md' : 'text-gray-300 hover:bg-gray-800 hover:text-white' }}">
+                        class="flex items-center px-4 py-3 text-sm font-medium rounded-lg transition-all duration-200 {{ $isActive ? 'bg-yellow-400 text-black shadow-md' : 'text-white hover:bg-yellow-500 hover:text-black hover:text-white' }}">
                         <!-- Icon: Home -->
                         @if ($item['icon'] === 'home')
                             <svg class="w-5 h-5 mr-3 flex-shrink-0" fill="none" stroke="currentColor"
@@ -233,8 +233,8 @@
             </nav>
 
             <!-- Sidebar Footer -->
-            <div class="p-4 border-t border-gray-800">
-                <p class="text-xs text-gray-500 text-center">
+            <div class="p-4 border-t border-black">
+                <p class="text-xs text-black text-center">
                     &copy; {{ date('Y') }} SMAK Syuradikara
                 </p>
             </div>
@@ -248,7 +248,7 @@
                     <!-- Left: Toggle & Title -->
                     <div class="flex items-center space-x-4">
                         <button type="button" onclick="toggleSidebar()"
-                            class="lg:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+                            class="lg:hidden p-2 rounded-md text-black hover:text-gray-900 hover:bg-white focus:outline-none focus:ring-2 focus:ring-yellow-400 transition-colors"
                             aria-label="Toggle sidebar">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -256,10 +256,10 @@
                             </svg>
                         </button>
                         <div>
-                            <h1 class="text-xl lg:text-2xl font-bold text-gray-800">
+                            <h1 class="text-xl lg:text-2xl font-bold text-black">
                                 SMAK Syuradikara
                             </h1>
-                            <p class="text-xs lg:text-sm text-gray-500 hidden sm:block">
+                            <p class="text-xs lg:text-sm text-black hidden sm:block">
                                 Admin Panel
                             </p>
                         </div>
@@ -269,23 +269,23 @@
                     <div class="flex items-center space-x-4">
                         <div class="hidden md:flex items-center space-x-3">
                             <div class="text-right">
-                                <p class="text-sm font-semibold text-gray-800">
+                                <p class="text-sm font-semibold text-black">
                                     {{ auth()->user()->name ?? 'Admin' }}
                                 </p>
                                 <span
-                                    class="inline-block px-2 py-0.5 text-xs font-medium bg-blue-100 text-blue-800 rounded-full">
+                                    class="inline-block px-2 py-0.5 text-xs font-medium bg-yellow-100 text-yellow-800 rounded-full">
                                     {{ ucwords(auth()->user()->role ?? 'admin') }}
                                 </span>
                             </div>
                             <div
-                                class="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold">
+                                class="w-10 h-10 rounded-full bg-yellow-400 flex items-center justify-center text-black font-bold">
                                 {{ strtoupper(substr(auth()->user()->name ?? 'A', 0, 1)) }}
                             </div>
                         </div>
                         <form method="POST" action="{{ route('logout') }}" class="inline">
                             @csrf
                             <button type="submit"
-                                class="flex items-center px-4 py-2 text-sm font-medium text-white bg-red-600 hover:bg-red-700 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+                                class="flex items-center px-4 py-2 text-sm font-medium text-white bg-black hover:bg-yellow-500 hover:text-black rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
                                 <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
@@ -301,10 +301,10 @@
             <main class="flex-1 p-4 lg:p-6">
                 @if (session('success'))
                     <div
-                        class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded-lg mb-4 flex items-center justify-between">
+                        class="bg-yellow-100 border border-yellow-400 text-black px-4 py-3 rounded-lg mb-4 flex items-center justify-between">
                         <span>{{ session('success') }}</span>
                         <button type="button" onclick="this.parentElement.remove()"
-                            class="text-green-700 hover:text-green-900">
+                            class="text-black hover:text-black">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M6 18L18 6M6 6l12 12" />
@@ -315,10 +315,10 @@
 
                 @if (session('error'))
                     <div
-                        class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-4 flex items-center justify-between">
+                        class="bg-yellow-100 border border-black text-black px-4 py-3 rounded-lg mb-4 flex items-center justify-between">
                         <span>{{ session('error') }}</span>
                         <button type="button" onclick="this.parentElement.remove()"
-                            class="text-red-700 hover:text-red-900">
+                            class="text-black hover:text-black">
                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                     d="M6 18L18 6M6 6l12 12" />
@@ -328,7 +328,7 @@
                 @endif
 
                 @if ($errors->any())
-                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-lg mb-4">
+                    <div class="bg-yellow-100 border border-black text-black px-4 py-3 rounded-lg mb-4">
                         <ul class="list-disc list-inside">
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
